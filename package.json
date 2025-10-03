@@ -1,0 +1,16 @@
+{
+  "name": "spheron-airdrop-checker",
+  "version": "1.0.0",
+  "description": "Check Spheron airdrop claimable info via proxy.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "crypto": "^1.0.1",
+    "ethers": "^6.8.1",
+    "https-proxy-agent": "^7.0.6"
+  }
+}
